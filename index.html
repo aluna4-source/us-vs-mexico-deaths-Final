@@ -1,0 +1,155 @@
+<!-- ===============================
+To run code right click on HTML file and open with Live Server     
+============================== -->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>US vs Mexico | Leading Causes & Mental Health</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style>
+    body { background:#000; color:#f8f9fa; }
+    nav.navbar { background: rgba(0,0,0,0.85) !important; }
+    nav a.nav-link, nav .navbar-brand { color:white !important; font-weight:bold; }
+    .section-title { font-weight:800; margin-bottom:0.75rem; border-left:4px solid #17a2b8; padding-left:0.75rem; }
+    .hero {
+      position: relative;
+      width: 100%;
+      min-height: 55vh;
+      background-image:
+        linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
+        url("https://media.istockphoto.com/id/1975318579/vector/mexico-united-states-border-political-map-border-between-mexico-and-usa.jpg?s=612x612&w=0&k=20&c=THhXBhSnbhBewlHB0tBZt551iF_AQSUOvE27CGuxAHw=");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+    }
+    .hero h1 { font-weight:900; text-shadow:2px 2px 8px rgba(0,0,0,0.8); }
+    .hero p { font-size:1.15rem; max-width:950px; text-shadow:1px 1px 6px rgba(0,0,0,0.8); }
+    #chart { border:1px solid #222; border-radius:10px; padding:8px; background:#0b0b0b; }
+    .text-muted { color:#cfcfcf !important; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="#top">ResourcesForStudents</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+      <li class="nav-item"><a class="nav-link" href="#visualizations">Visualizations</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container py-5">
+    <h1 class="display-4 mb-3">Leading Causes of Death and Their Relationship to Mental Health</h1>
+    <p class="mb-4">
+      A comparative analysis of mortality patterns in the <strong>United States</strong> and <strong>Mexico</strong>.
+      Explore how major causes of death relate to <strong>mental health</strong> trends over time and across regions.
+    </p>
+    <a href="#visualizations" class="btn btn-info btn-lg">Explore the Data</a>
+  </div>
+</header>
+
+<div class="container my-5" id="overview">
+  <h2 class="section-title">Project Overview</h2>
+  <p>
+    This website compares the top 9 leading causes of death with mental health, highlighting differences between the United States and Mexico. Use the dropdowns to explore bar charts, trend lines, state-level comparisons, and a mental-health relationship view.</p>
+    This project was created to better understand how physical health outcomes and mental health trends intersect across different national contexts. By comparing the United States and Mexico, we aim to highlight how social, economic, and healthcare systems may influence both leading causes of death and mental health–related mortality. Visualizing these patterns together allows for a more nuanced interpretation of public health challenges and encourages critical reflection on prevention, policy, and access to care. Due to the reason accident with Brown we decided to do a compare analyis on how deaths can impact mental health in both countries.
+  </p>
+</div>
+
+<div class="container mb-5" id="visualizations">
+  <h2 class="section-title">Interactive Visualizations</h2>
+
+  <div class="row mb-3">
+    <div class="col-md-5">
+      <label for="causeSelect"><strong>Select a Cause of Death</strong></label>
+      <select id="causeSelect" class="form-control"></select>
+      <small class="text-muted">This controls the visualizations below.</small>
+    </div>
+
+    <div class="col-md-3">
+      <label for="yearSelect"><strong>Select Year (5-year steps)</strong></label>
+      <select id="yearSelect" class="form-control">
+        <option value="2000">2000</option>
+        <option value="2005">2005</option>
+        <option value="2010">2010</option>
+        <option value="2015" selected>2015</option>
+      </select>
+      <small class="text-muted">Used for bar, state bar, and map views.</small>
+    </div>
+
+    <div class="col-md-4">
+      <label for="vizSelect"><strong>Select Visualization</strong></label>
+      <select id="vizSelect" class="form-control">
+        <option value="bar">US vs Mexico (Bar, selected year)</option>
+        <option value="trend">US vs Mexico (Trend by Year)</option>
+        <option value="usStateBar">US States (Bar, selected year)</option>
+        <option value="usBubble">US Bubble Map (selected year)</option>
+        <option value="mhCompare">Mental Health Relationship (Scatter)</option>
+      </select>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-12 mb-3">
+      <div id="chart" style="height: 560px;"></div>
+      <div id="chartNote" class="text-warning mt-2"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h5 class="section-title">Insights</h5>
+      <ul id="insights"></ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===============================
+     DATA SOURCES
+     Links to original datasets used in the analysis
+     =============================== -->
+<div class="container my-5">
+  <h5 class="section-title">Data Sources</h5>
+  <ul class="text-muted">
+    <li>
+      Mexico mortality data (UN Data – Table 105):
+      <a href="https://data.un.org/Data.aspx?q=DEATHS&d=POP&f=tableCode%3a105"
+         target="_blank" rel="noopener noreferrer">
+        https://data.un.org/Data.aspx?q=DEATHS&d=POP&f=tableCode%3a105
+      </a>
+    </li>
+    <li>
+      United States mortality data (NCHS – Leading Causes of Death):
+      <a href="https://catalog.data.gov/dataset/nchs-leading-causes-of-death-united-states/resource/9096aa3c-0d4b-42f1-bb01-284816d92a15"
+         target="_blank" rel="noopener noreferrer">
+        https://catalog.data.gov/dataset/nchs-leading-causes-of-death-united-states/resource/9096aa3c-0d4b-42f1-bb01-284816d92a15
+      </a>
+    </li>
+  </ul>
+</div>
+
+<footer class="container-fluid py-3" style="background: rgba(0,0,0,0.9);">
+  <div class="text-center text-light">
+    <small>© 2025 ResourcesForStudents</small>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

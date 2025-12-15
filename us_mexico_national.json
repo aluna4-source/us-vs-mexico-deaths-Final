@@ -1,0 +1,434 @@
+[
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "Unintentional injuries",
+    "Deaths": 146571
+  },
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "Stroke",
+    "Deaths": 140323
+  },
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "CLRD",
+    "Deaths": 155041
+  },
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "Diabetes",
+    "Deaths": 79535
+  },
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "Heart disease",
+    "Deaths": 633842
+  },
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "Influenza and pneumonia",
+    "Deaths": 57062
+  },
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "Cancer",
+    "Deaths": 595930
+  },
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "Kidney disease",
+    "Deaths": 49959
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "Unintentional injuries",
+    "Deaths": 120859
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "Stroke",
+    "Deaths": 129476
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "CLRD",
+    "Deaths": 138080
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "Diabetes",
+    "Deaths": 69071
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "Heart disease",
+    "Deaths": 597689
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "Influenza and pneumonia",
+    "Deaths": 50097
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "Cancer",
+    "Deaths": 574743
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "Kidney disease",
+    "Deaths": 50476
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "Unintentional injuries",
+    "Deaths": 117809
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "Stroke",
+    "Deaths": 143579
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "CLRD",
+    "Deaths": 130933
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "Diabetes",
+    "Deaths": 75119
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "Heart disease",
+    "Deaths": 652091
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "Influenza and pneumonia",
+    "Deaths": 63001
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "Cancer",
+    "Deaths": 559312
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "Kidney disease",
+    "Deaths": 43901
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "Unintentional injuries",
+    "Deaths": 97900
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "Stroke",
+    "Deaths": 167661
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "CLRD",
+    "Deaths": 122009
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "Diabetes",
+    "Deaths": 69301
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "Heart disease",
+    "Deaths": 710760
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "Influenza and pneumonia",
+    "Deaths": 65313
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "Cancer",
+    "Deaths": 553091
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "Kidney disease",
+    "Deaths": 37251
+  },
+  {
+    "Entity": "United States",
+    "Year": 2000,
+    "Cause": "Mental health/suicide",
+    "Deaths": 29350
+  },
+  {
+    "Entity": "United States",
+    "Year": 2005,
+    "Cause": "Mental health/suicide",
+    "Deaths": 32637
+  },
+  {
+    "Entity": "United States",
+    "Year": 2010,
+    "Cause": "Mental health/suicide",
+    "Deaths": 38364
+  },
+  {
+    "Entity": "United States",
+    "Year": 2015,
+    "Cause": "Mental health/suicide",
+    "Deaths": 44193
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "Heart disease",
+    "Deaths": 44061
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "Heart disease",
+    "Deaths": 53185
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "Heart disease",
+    "Deaths": 69075
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "Heart disease",
+    "Deaths": 85961
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "Cancer",
+    "Deaths": 54993
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "Cancer",
+    "Deaths": 62976
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "Cancer",
+    "Deaths": 68957
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "Cancer",
+    "Deaths": 78009
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "CLRD",
+    "Deaths": 18132
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "CLRD",
+    "Deaths": 22245
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "CLRD",
+    "Deaths": 24919
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "CLRD",
+    "Deaths": 25424
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "Unintentional injuries",
+    "Deaths": 34894
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "Unintentional injuries",
+    "Deaths": 34618
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "Unintentional injuries",
+    "Deaths": 35904
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "Unintentional injuries",
+    "Deaths": 35127
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "Stroke",
+    "Deaths": 25431
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "Stroke",
+    "Deaths": 27368
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "Stroke",
+    "Deaths": 31621
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "Stroke",
+    "Deaths": 33409
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "Diabetes",
+    "Deaths": 46614
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "Diabetes",
+    "Deaths": 67090
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "Diabetes",
+    "Deaths": 81380
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "Diabetes",
+    "Deaths": 96508
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "Influenza and pneumonia",
+    "Deaths": 12379
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "Influenza and pneumonia",
+    "Deaths": 13118
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "Influenza and pneumonia",
+    "Deaths": 15023
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "Influenza and pneumonia",
+    "Deaths": 18454
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "Kidney disease",
+    "Deaths": 10227
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "Kidney disease",
+    "Deaths": 11843
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "Kidney disease",
+    "Deaths": 13647
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "Kidney disease",
+    "Deaths": 15533
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2000,
+    "Cause": "Mental health/suicide",
+    "Deaths": 5004
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2005,
+    "Cause": "Mental health/suicide",
+    "Deaths": 4498
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2010,
+    "Cause": "Mental health/suicide",
+    "Deaths": 4272
+  },
+  {
+    "Entity": "Mexico",
+    "Year": 2015,
+    "Cause": "Mental health/suicide",
+    "Deaths": 5199
+  }
+]

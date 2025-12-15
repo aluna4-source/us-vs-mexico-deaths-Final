@@ -1,0 +1,7 @@
+Sources (where the data came from)
+
+Mexico (UN Data Table 105):
+https://data.un.org/Data.aspx?q=DEATHS&d=POP&f=tableCode%3a105
+
+United States (NCHS Leading Causes of Death — data.gov resource):
+https://catalog.data.gov/dataset/nchs-leading-causes-of-death-united-states/resource/9096aa3c-0d4b-42f1-bb01-284816d92a15
